@@ -17,11 +17,13 @@ const (
 	EUR Currency = "EUR"
 )
 
-type Payment struct {
-	ID     int
-	Amount Money
-}
 type Category string
+
+type Payment struct {
+	ID       int
+	Amount   Money
+	Category Category
+}
 
 type Card struct {
 	ID       int
