@@ -17,6 +17,11 @@ const (
 	EUR Currency = "EUR"
 )
 
+type Payment struct {
+	ID     int
+	Amount Money
+}
+
 type Card struct {
 	ID       int
 	PAN      PAN
