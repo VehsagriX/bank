@@ -21,6 +21,7 @@ type Payment struct {
 	ID     int
 	Amount Money
 }
+type Category string
 
 type Card struct {
 	ID       int
