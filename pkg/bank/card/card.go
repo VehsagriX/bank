@@ -1,6 +1,6 @@
 package card
 
-import "github.com/VehsagriX/bank/v2/pkg/bank/types"
+import "github.com/VehsagriX/bank/pkg/bank/types"
 
 func IssueCard(currency types.Currency, color string, name string) types.Card {
 	card := types.Card{
