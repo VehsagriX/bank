@@ -3,7 +3,7 @@ package withdraw
 import (
 	"fmt"
 
-	"github.com/VehsagriX/bank/pkg/bank/types"
+	"github.com/VehsagriX/bank/v2/pkg/bank/types"
 )
 
 func ExampleWithDraw() {
