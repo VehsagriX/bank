@@ -20,17 +20,17 @@ const (
 type Category string
 
 type Payment struct {
-	ID       int
-	Amount   Money
-	Category Category
+	ID     int
+	Amount Money
 }
 
 type Card struct {
-	ID       int
-	PAN      PAN
-	Balance  Money
-	Currency Currency
-	Color    string
-	Name     string
-	Active   bool
+	ID         int
+	PAN        PAN
+	Balance    Money
+	MinBalance Money
+	Currency   Currency
+	Color      string
+	Name       string
+	Active     bool
 }
