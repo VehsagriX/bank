@@ -6,7 +6,6 @@ import (
 
 const withDrawLimit = 20_000_00
 
-// aassssas
 func WithDraw(card *types.Card, amount types.Money) {
 	if amount < 0 {
 		return
