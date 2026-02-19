@@ -1,7 +1,7 @@
 package withdraw
 
 import (
-	"github.com/VehsagriX/bank/v2/pkg/bank/types"
+	"github.com/VehsagriX/bank/pkg/bank/types"
 )
 
 // test
