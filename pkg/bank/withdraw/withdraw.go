@@ -4,6 +4,7 @@ import (
 	"github.com/VehsagriX/bank/v2/pkg/bank/types"
 )
 
+// test
 const withDrawLimit = 20_000_00
 
 func WithDraw(card *types.Card, amount types.Money) {
