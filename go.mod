@@ -1,3 +1,3 @@
-module github.com/VehsagriX/bank
+module github.com/VehsagriX/bank/v2
 
 go 1.25.1
