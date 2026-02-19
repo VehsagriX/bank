@@ -1,6 +1,8 @@
 package withdraw
 
-import "github.com/VehsagriX/bank/v2/pkg/bank/types"
+import (
+	"github.com/VehsagriX/bank/v2/pkg/bank/types"
+)
 
 const withDrawLimit = 20_000_00
 
