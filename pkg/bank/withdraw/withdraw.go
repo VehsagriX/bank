@@ -1,10 +1,7 @@
 package withdraw
 
-import (
-	"github.com/VehsagriX/bank/pkg/bank/types"
-)
+import "github.com/VehsagriX/bank/pkg/bank/types"
 
-// test
 const withDrawLimit = 20_000_00
 
 func WithDraw(card *types.Card, amount types.Money) {
