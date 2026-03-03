@@ -20,8 +20,9 @@ const (
 type Category string
 
 type Payment struct {
-	ID     int
-	Amount Money
+	ID       int
+	Amount   Money
+	Category Category
 }
 
 type Card struct {
