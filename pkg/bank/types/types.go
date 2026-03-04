@@ -17,12 +17,21 @@ const (
 	EUR Currency = "EUR"
 )
 
+type Status string
+
+const (
+	StatusOK         Status = "OK"
+	StatusFail       Status = "FAIL"
+	StatusInProgress Status = "INPROGRESS"
+)
+
 type Category string
 
 type Payment struct {
 	ID       int
 	Amount   Money
 	Category Category
+	Status   Status
 }
 
 type Card struct {
